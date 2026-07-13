@@ -1,0 +1,16 @@
+/* Structural borders only — per assignment rule, no styling beyond
+   border/border-width may be used to lay out the base page structure.
+   The one exception is column widths on Table 1's <col> elements
+   (inline styles), which the Part 3 README explicitly permits. */
+header,
+footer,
+article,
+section,
+aside,
+figure,
+table,
+form,
+details,
+blockquote {
+	border: 1px solid #333333;
+}
